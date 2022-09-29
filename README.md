@@ -1,2 +1,5 @@
 # image-compressor
-Compressor to convert Image to smaller image file
+
+Convert Image to smaller image file.
+
+![Screenshot](./public/example.PNG)
