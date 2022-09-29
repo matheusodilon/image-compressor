@@ -15,7 +15,7 @@ const CompressorForm = () => {
     imageCompressorService.compress(e.target.files[0], 5)
       .then((data: File) => {
         compressedFileSize = data.size;
-        console.log(data);
+
         setSrc(URL.createObjectURL(data));
       });
   };
