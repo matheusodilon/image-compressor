@@ -1,6 +1,4 @@
 class ImageCompressorService {
-  // Se imagem for menor que 1mb não precisamos comprimir
-  // Se imagem for maior que 1mb, porém com largura menor ou altura menor que 1000px, então não redimencionamos tamanho, somente qualidade
   private getFilesize(file: File) {
     const realSize = file.size / 1024;
     return realSize;
